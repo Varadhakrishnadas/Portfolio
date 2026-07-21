@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Varadha K | Personal Portfolio Website
 
-## Getting Started
+A modern, responsive personal portfolio website built with **Next.js (App Router)**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**. Designed for showcasing software development, Python engineering, data analytics projects, academic publications, and professional credentials.
 
-First, run the development server:
+---
+
+## 🚀 Tech Stack
+
+- **Framework**: Next.js 15 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React & Custom Brand Icons
+- **Deployment**: Vercel
+
+---
+
+## 📁 Features & Structure
+
+- **Home**: Introduction, typewriter title rotation, quick social links, resume download, and profile overview.
+- **About**: Career objectives, background, and professional attributes.
+- **Education**: Detailed academic history (MCA, B.Sc. Computer Science, Higher Secondary, SSLC).
+- **Skills**: Categorized technical competencies in Python, Data Analytics, Databases, and Software Engineering.
+- **Projects**: In-depth breakdowns of major projects:
+  - *AI-Powered Interview Fairness System* (Streamlit, SQLite, TF-IDF, Cosine Similarity, Plotly, ReportLab) with screenshot gallery and interactive modal.
+  - *TrendScope YouTube Intelligence Dashboard* (Python, Sentiment Analysis, TextBlob, TensorFlow/LSTM).
+- **Certifications**: Industry and academic certifications with PDF/image viewer modal triggers.
+- **Publications**: Peer-reviewed journal publications (IJSREM, IJARASEM) and national conference presentations (13th National Conference on AI).
+- **Resume**: Interactive CV page with live inline PDF previewer, full tab opener, and download trigger.
+- **Contact**: Direct communication channels (Email, Phone, LinkedIn, GitHub, Google Maps location).
+
+---
+
+## 💻 Getting Started Locally
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Varadhakrishnadas/Portfolio.git
+   cd Portfolio
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Run the local development server**:
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 🛠️ Build & Production
+
+To compile and verify the production build:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔒 Security & Performance
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Zero Hardcoded Secrets**: Fully audited for public safety.
+- **Static Pre-rendering**: All routes statically pre-rendered for lightning-fast page loads.
